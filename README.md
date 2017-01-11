@@ -4,7 +4,7 @@
 ## Cholesky分解
 如果矩阵X是对称正定的，则Cholesky分解将矩阵X分解成一个下三角矩阵和上三角矩阵的乘积。设上三角矩阵为R,则下三角矩阵为其转置，即X=R'R。
 
-### 正定矩阵
+##### 正定矩阵
 设M是n阶方阵，如果对任何非零向量z，都有zTMz> 0，其中zT表示z的转置，就称M正定矩阵。
 
 正定矩阵判定定理
@@ -29,5 +29,5 @@
 算法思想：从下至上地对矩阵A做初等行变换，将对角线左下方的元素变成0，这些行变换的效果等同于左乘一系列单位下三角矩阵，这个单位下三角矩阵就是L，而变换最后得到的上三角矩阵就是U。
 
 分解算法如下：（其中alpha代表L矩阵的元素，beta代表U矩阵的元素）
-![](https://github.com/Macielyoung/matrix-decomposition/tree/master/pic/LU矩阵分解1.jpg)
-![](https://github.com/Macielyoung/matrix-decomposition/tree/master/pic/LU矩阵分解2.jpg)
+![]("pic/LU矩阵分解1.jpg")
+![]("pic/LU矩阵分解2.jpg")
