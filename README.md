@@ -1,4 +1,4 @@
-# matrix-decomposition
+# 矩阵分解
 介绍几个常见的矩阵分解,以及用于做简单的推荐系统
 
 ## Cholesky分解
